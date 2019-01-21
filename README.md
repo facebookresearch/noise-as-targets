@@ -124,7 +124,7 @@ $ luajit test.lua -h
 
 ## ImageNet classification with a pre-trained model
 
-We provide a pre-trained model, available for download [here](https://s3-us-west-2.amazonaws.com/noise-as-targets/model.bin).
+We provide a pre-trained model, available for download [here](https://dl.fbaipublicfiles.com/noise-as-targets/model.bin).
 You can run the transfer task with a pre-trained model by running:
 ```
 $ ./test-pretrained.sh

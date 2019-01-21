@@ -15,7 +15,7 @@ MFILE="${MODEL}/model.bin"
 if [ -f "${MFILE}" ]
 then
   curl -o "${MFILE}" --create-dirs \
-    https://s3-us-west-2.amazonaws.com/noise-as-targets/model.bin
+    https://dl.fbaipublicfiles.com/noise-as-targets/model.bin
 done
 
 OMP_NUM_THREADS=1 ${LUAJIT} test.lua -dataroot ${DATA} -nthread 10 \
