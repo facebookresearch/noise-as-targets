@@ -130,3 +130,7 @@ You can run the transfer task with a pre-trained model by running:
 $ ./test-pretrained.sh
 ```
 This will download the pre-trained model and launch the transfer learning on ImageNet.
+
+## License
+
+This code is licensed under CC-BY-NC license. See the LICENSE file for more details.
